@@ -1,9 +1,10 @@
 package model
 
 import (
-	"github.com/parvez3019/go-swagger3/logger"
-	oas "github.com/parvez3019/go-swagger3/openApi3Schema"
 	"go/ast"
+
+	"github.com/Arlet2/go-swagger3/logger"
+	oas "github.com/Arlet2/go-swagger3/openApi3Schema"
 )
 
 type Utils struct {

@@ -3,14 +3,15 @@ package schema
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/iancoleman/orderedmap"
-	. "github.com/parvez3019/go-swagger3/openApi3Schema"
-	"github.com/parvez3019/go-swagger3/parser/utils"
-	log "github.com/sirupsen/logrus"
 	"go/ast"
 	"reflect"
 	"strconv"
 	"strings"
+
+	. "github.com/Arlet2/go-swagger3/openApi3Schema"
+	"github.com/Arlet2/go-swagger3/parser/utils"
+	"github.com/iancoleman/orderedmap"
+	log "github.com/sirupsen/logrus"
 )
 
 func (p *parser) parseCustomTypeSchemaObject(pkgPath string, pkgName string, typeName string) (*SchemaObject, error) {

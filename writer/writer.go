@@ -6,8 +6,8 @@ import (
 	"os"
 	"strings"
 
+	oas "github.com/Arlet2/go-swagger3/openApi3Schema"
 	"github.com/ghodss/yaml"
-	oas "github.com/parvez3019/go-swagger3/openApi3Schema"
 	log "github.com/sirupsen/logrus"
 )
 

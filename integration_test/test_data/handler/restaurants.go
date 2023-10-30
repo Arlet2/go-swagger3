@@ -1,7 +1,7 @@
 package handler
 
 import (
-	_ "github.com/parvez3019/go-swagger3/model"
+	_ "github.com/Arlet2/go-swagger3/model"
 )
 
 // @Title Get restaurants list
