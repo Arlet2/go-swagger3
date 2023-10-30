@@ -1,14 +1,15 @@
 package schema
 
 import (
-	. "github.com/parvez3019/go-swagger3/openApi3Schema"
-	"github.com/parvez3019/go-swagger3/parser/model"
-	"github.com/parvez3019/go-swagger3/parser/utils"
 	"go/ast"
 	goParser "go/parser"
 	"go/token"
 	"os"
 	"strings"
+
+	. "github.com/Arlet2/go-swagger3/openApi3Schema"
+	"github.com/Arlet2/go-swagger3/parser/model"
+	"github.com/Arlet2/go-swagger3/parser/utils"
 )
 
 type Parser interface {

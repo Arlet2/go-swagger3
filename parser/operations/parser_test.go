@@ -2,10 +2,11 @@ package operations
 
 import (
 	"errors"
-	oas "github.com/parvez3019/go-swagger3/openApi3Schema"
-	"github.com/parvez3019/go-swagger3/parser/schema"
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	oas "github.com/Arlet2/go-swagger3/openApi3Schema"
+	"github.com/Arlet2/go-swagger3/parser/schema"
+	"github.com/stretchr/testify/assert"
 )
 
 func Test_ParseHeader(t *testing.T) {
