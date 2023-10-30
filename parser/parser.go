@@ -1,16 +1,17 @@
 package parser
 
 import (
-	"github.com/parvez3019/go-swagger3/logger"
-	. "github.com/parvez3019/go-swagger3/openApi3Schema"
-	"github.com/parvez3019/go-swagger3/parser/apis"
-	"github.com/parvez3019/go-swagger3/parser/gomod"
-	"github.com/parvez3019/go-swagger3/parser/info"
-	"github.com/parvez3019/go-swagger3/parser/model"
-	"github.com/parvez3019/go-swagger3/parser/module"
-	"github.com/parvez3019/go-swagger3/parser/schema"
-	log "github.com/sirupsen/logrus"
 	"go/ast"
+
+	"github.com/Arlet2/go-swagger3/logger"
+	. "github.com/Arlet2/go-swagger3/openApi3Schema"
+	"github.com/Arlet2/go-swagger3/parser/apis"
+	"github.com/Arlet2/go-swagger3/parser/gomod"
+	"github.com/Arlet2/go-swagger3/parser/info"
+	"github.com/Arlet2/go-swagger3/parser/model"
+	"github.com/Arlet2/go-swagger3/parser/module"
+	"github.com/Arlet2/go-swagger3/parser/schema"
+	log "github.com/sirupsen/logrus"
 )
 
 type parser struct {

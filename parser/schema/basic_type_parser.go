@@ -1,10 +1,11 @@
 package schema
 
 import (
-	"github.com/iancoleman/orderedmap"
-	. "github.com/parvez3019/go-swagger3/openApi3Schema"
-	"github.com/parvez3019/go-swagger3/parser/utils"
 	"strings"
+
+	. "github.com/Arlet2/go-swagger3/openApi3Schema"
+	"github.com/Arlet2/go-swagger3/parser/utils"
+	"github.com/iancoleman/orderedmap"
 )
 
 func (p *parser) parseBasicTypeSchemaObject(pkgPath string, pkgName string, typeName string) (*SchemaObject, error, bool) {

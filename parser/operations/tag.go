@@ -1,9 +1,10 @@
 package operations
 
 import (
-	oas "github.com/parvez3019/go-swagger3/openApi3Schema"
-	"github.com/parvez3019/go-swagger3/parser/utils"
 	"strings"
+
+	oas "github.com/Arlet2/go-swagger3/openApi3Schema"
+	"github.com/Arlet2/go-swagger3/parser/utils"
 )
 
 func (p *parser) parseResourceAndTag(comment string, attribute string, operation *oas.OperationObject) {
